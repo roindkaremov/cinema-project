@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
 </head>
+
 <body>
-    Привет мир
+    <header class="header">
+        <div class="logo-header">
+            <img class="logo-header__img" src="assets/ball logo.svg" alt="банер">
+            <p class="logo-header__name">REELLY</p>
+        </div>
+        <nav class="header__nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#" class="header__link header__link--active">Movies</a></li>
+                <li class="nav-item"><a href="#" class="header__link">Cinema</a></li>
+                <li class="nav-item"><a href="#" class="header__link">Schedule</a></li>
+            </ul>
+        </nav>
+
+        <div class="header__actions">
+            <button class="header__serach" type="button">
+                <img src="assets/search-header.png" alt="поиск фильмов">
+            </button>
+            <a href="#" class="header__login">
+                Login
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-main">
+
+                <div class="hero-top">
+
+                    <div class="hero-top__title">FEATURED</div>
+                    <p class="hero-top__text">2h 18min · Sci-Fi / Thriller · 16+</p>
+
+                </div>
+
+                <h2 class="hero-title">Silent Horizon</h2>
+
+                <div class="rating-container">
+                    <img src="assets/star.svg" alt="звезда">
+                    <span class="rating-left">8.4</span>
+                    <span class="rating-right">/ 10 IMDb</span>
+                </div>
+
+                <div class="hero-action">
+                    <button class="buy-btn">Buy Tickets</button>
+                    <a class="more-info" href="#">More info</a>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="js/home.js"></script>
 </body>
+
 </html>
