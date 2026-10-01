@@ -55,6 +55,9 @@ p
 // variable
 
 $orange-color: #D43A3A
+$main-text: #F5F3EF
+$description-text: #8E8E93
+$color-stroke: #242426
 
 // =================================================================================
 // header - index.html
@@ -67,11 +70,11 @@ $orange-color: #D43A3A
     justify-content: space-around
     align-items: center
     &__link
-        color: #8E8E93
+        color: $description-text
         position: relative
         padding-bottom: 8px
     &__link--active
-        color: #F5F3EF
+        color: $main-text
         &::after
             content: ""
             position: absolute
@@ -87,7 +90,7 @@ $orange-color: #D43A3A
         gap: 24px
 
     &__login
-        border: 1px solid #F5F3EF
+        border: 1px solid $main-text
         border-radius: 8px
         width: 77px
         height: 38px
@@ -102,7 +105,7 @@ $orange-color: #D43A3A
     gap: 8px
     &__name
         font-size: 24px
-        color: #F5F3EF
+        color: $main-text
 
 .nav-list
     display: flex
@@ -125,6 +128,7 @@ $orange-color: #D43A3A
     align-items: flex-end
     padding-left: 64px
     padding-bottom: 48px
+    margin-bottom: 64px
 
 .hero-main
     display: flex
@@ -172,10 +176,10 @@ $orange-color: #D43A3A
     border-radius: 8px
     background-color: $orange-color
     font-size: 14px
-    color: #F5F3EF
+    color: $main-text
 
 .more-info
-    border: 1px solid #F5F3EF
+    border: 1px solid $main-text
     border-radius: 8px
     display: flex
     justify-content: center
@@ -183,3 +187,165 @@ $orange-color: #D43A3A
     width: 120px
     height: 46px
     font-size: 14px
+
+
+// =================================================================================
+// movie-catalog - index.html
+
+
+.movie-catalog
+    width: 1440px
+    height: 1467px
+    margin: 0 auto
+
+
+.movie-nav
+    width: 1312px
+    height: 35px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 32px
+
+    &__title
+        font-size: 28px
+        color: $main-text
+
+
+    &__filters
+        display: flex
+        align-items: center
+        justify-content: center
+        gap: 12px
+
+    &__filter-item
+        font-size: 13px
+        color: $description-text
+        cursor: pointer
+    
+    &__filter-item--active
+        border-radius: 20px
+        height: 33px
+        width: 93px
+        border: 1px solid $color-stroke
+        background-color: #141416
+        color: $main-text
+        display: flex
+        justify-content: center
+        align-items: center
+        
+
+// =================================================================================
+// movie-grid - index.html
+
+.movie-card
+    width: 310px
+    height: 620px
+    border-radius: 12px
+    background-color: #141416
+    border: 1px solid $color-stroke
+    display: flex
+    flex-direction: column
+    overflow: hidden
+    
+    
+
+    &__poster-wrapper
+        margin-bottom: 16px
+        
+
+    &__meta
+        display: flex
+        gap: 209px
+        margin: 0 auto
+        margin-bottom: 12px
+
+    &__poster
+        display: block
+        
+    &__age-rating
+        display: flex
+        justify-content: center
+        align-content: center
+        width: 31px
+        height: 18px
+        border: 1px solid $color-stroke
+        background-color: #0B0B0C
+        color: $main-text
+        border-radius: 4px
+        font-size: 11px
+        padding-top: 2px
+    
+    &__rating
+        display: flex
+
+    &__title
+        font-size: 18px
+        color: $main-text
+        margin-bottom: 4px
+
+    &__info
+        font-size: 13px
+        color: $description-text
+        margin-bottom: 12px
+
+    &__description
+        padding-left: 6%
+
+    &__button
+        width: 278px
+        height: 37px
+        background-color: #0B0B0C
+        border: 1px solid $color-stroke
+        color: #D43A3A
+        border-radius: 8px
+        margin: 0 auto
+
+
+// =================================================================================
+// coming-soon - index.html
+
+.coming-soon
+    margin: 0 auto
+    width: 1440px
+    height: 244px
+    &__container
+        width: 1312px
+        height: 164px
+        display: flex
+        flex-direction: column
+
+    &__title
+        font-size: 24px
+        margin-bottom: 24px
+        padding-left: 52px
+
+    &__list
+        display: flex
+        gap: 16px
+        margin: 0 auto
+
+
+.coming-card
+    width: 290px
+    height: 110px
+    display: flex
+    border: 1px solid $color-stroke
+    border-radius: 16px
+    background-color: #141416
+    overflow: hidden
+    &__img
+        width: 30%
+        height: 100%
+
+    &__meta
+        display: flex
+        flex-direction: column
+        justify-content: center
+
+    
+
+
+// =================================================================================
+// footer - index.html
+
