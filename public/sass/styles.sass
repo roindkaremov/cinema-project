@@ -233,6 +233,12 @@ $color-stroke: #242426
         display: flex
         justify-content: center
         align-items: center
+
+
+.movie-grid
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
+    gap: 20px
         
 
 // =================================================================================
@@ -341,11 +347,103 @@ $color-stroke: #242426
     &__meta
         display: flex
         flex-direction: column
+        padding: 12px
+
+
+
+    &__title
+        font-size: 14px
+        color: $main-text
+        margin-bottom: 4px
+
+    &__description
+        font-size: 11px
+        color: $description-text
+        margin-bottom: 28px
+
+    &__data
+        display: flex
         justify-content: center
+        align-items: center
+        font-size: 11px
+        color: #D43A3A
+        background-color: #d43a3a10
+        border-radius: 4px
+        width: 51px
+        height: 22px
 
     
 
 
 // =================================================================================
+// hr - index.html
+
+.hr
+
+
+    border-top: 1px solid $description-text
+    margin-bottom: 80px
+
+
+// =================================================================================
 // footer - index.html
+
+
+.footer
+    width: 1440px
+    height: 356px
+    margin: 0 auto
+    &__brand
+        width: 360px
+        height: 116px
+        margin-right: 460px
+
+    &__brand-logo
+        display: flex
+        gap: 8px
+        margin-bottom: 20px
+
+    &__description
+        font-size: 14px
+        color: $description-text
+
+
+    &__menus
+        display: flex
+        gap: 105px
+
+    &__nav-group
+        width: 111px
+        height: 154px
+        display: flex
+        flex-direction: column
+        
+
+    &__nav-title
+        font-size: 14px
+        margin-bottom: 16px
+
+        
+    &__nav-item
+        color: $description-text
+        font-size: 14px
+        margin-bottom: 16px
+        &:last-child
+            margin-bottom: 0px
+
+
+    &__legal
+        display: flex
+        justify-content: space-between
+    
+
+
+.footer-container
+    width: 1312px
+    height: 154px
+    display: flex
+    margin-bottom: 64px
+    
+    
+
 
