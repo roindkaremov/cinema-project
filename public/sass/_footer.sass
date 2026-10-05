@@ -1,0 +1,81 @@
+@use 'variables' as *
+
+// =================================================================================
+// footer - index.html
+
+.footer
+    width: 1440px
+    height: 356px
+    padding: 80px 64px 40px 64px
+    margin: 0 auto
+    &__brand
+        width: 360px
+        height: 116px
+        margin-right: 460px
+
+    &__brand-logo
+        display: flex
+        gap: 8px
+        margin-bottom: 20px
+
+    &__description
+        font-size: 14px
+        color: $description-text
+
+    &__menus
+        display: flex
+        gap: 105px
+
+    &__nav-group
+        width: 111px
+        height: 154px
+        display: flex
+        flex-direction: column
+
+    &__nav-title
+        font-size: 14px
+        margin-bottom: 16px
+
+    &__nav-item
+        color: $description-text
+        font-size: 14px
+        margin-bottom: 16px
+        &:last-child
+            margin-bottom: 0px
+
+    &__legal
+        display: flex
+        justify-content: space-between
+
+    &__aside
+        margin-left: 64px
+
+    &__socials-title
+        font-size: 14px
+        margin-bottom: 16px
+
+    &__socials-list
+        display: flex
+        gap: 12px
+
+    &__socials-link
+        width: 36px
+        height: 36px
+        border-radius: 50%
+        border: 1px solid $color-stroke
+        display: flex
+        justify-content: center
+        align-items: center
+        color: $main-text
+        transition: background-color .15s, border-color .15s
+
+        &:hover
+            background-color: $orange-color
+            border-color: $orange-color
+
+.footer-container
+    width: 1312px
+    height: 154px
+    display: flex
+
+    margin-bottom: 64px

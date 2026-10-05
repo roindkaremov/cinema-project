@@ -10,7 +10,7 @@
     {
         "id": 2,
         "title" : "Neon District",
-        "poster": "assets/now showing/poster-1.png",
+        "poster": "assets/now showing/poster-2.png",
         "description": "Action / Cyberpunk · 1h 56m",
         "ageRating": "18+",
         "rating": 7.9
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "title" : "The Last Signal",
-        "poster": "assets/now showing/poster-1.png",
+        "poster": "assets/now showing/poster-3.png",
         "description": "Drama / Mystery · 2h 05m",
         "ageRating": "12+",
         "rating": 8.1
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "title" : "After Midnight",
-        "poster": "assets/now showing/poster-1.png",
+        "poster": "assets/now showing/poster-4.png",
         "description": "Horror / Suspense · 1h 42m",
         "ageRating": "18+",
         "rating": 7.5
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "title" : "The Last Signal",
-        "poster": "assets/now showing/poster-1.png",
+        "poster": "assets/now showing/poster-5.png",
         "description": "Drama / Mystery · 2h 05m",
         "ageRating": "12+",
         "rating": 8.1
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "title" : "After Midnight",
-        "poster": "assets/now showing/poster-1.png",
+        "poster": "assets/now showing/poster-6.png",
         "description": "Horror / Suspense · 1h 42m",
         "ageRating": "18+",
         "rating": 7.5
@@ -50,7 +50,7 @@
     {
         "id": 7,
         "title" : "After Midnight",
-        "poster": "assets/now showing/poster-1.png",
+        "poster": "assets/now showing/poster-7.png",
         "description": "Horror / Suspense · 1h 42m",
         "ageRating": "18+",
         "rating": 7.5
@@ -58,7 +58,7 @@
     {
         "id": 8,
         "title" : "After Midnight",
-        "poster": "assets/now showing/poster-1.png",
+        "poster": "assets/now showing/poster-8.png",
         "description": "Horror / Suspense · 1h 42m",
         "ageRating": "18+",
         "rating": 7.5
