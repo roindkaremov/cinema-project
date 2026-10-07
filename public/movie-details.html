@@ -15,99 +15,25 @@
     <main>
         <article class="movie-hero">
 
-            <img class="movie-hero__backdrop" src="assets/movie/backdrop.png" alt="">
+            <img class="movie-hero__backdrop" id="movie-backdrop" src="" alt="">
 
             <div class="movie-hero__content">
 
-                <img class="movie-hero__poster" src="assets/movie/movie-detail-poster.png" alt="Silent Horizon">
+                <img class="movie-hero__poster" id="movie-poster" src="" alt="">
 
-                <div class="movie-hero__info">
-
-                    <div class="movie-hero__badges">
-                        <span class="movie-hero__age-rating">16+</span>
-                        <span class="movie-hero__meta">2h 18min · Sci-Fi / Thriller</span>
-                    </div>
-
-                    <h1 class="movie-hero__title">Silent Horizon</h1>
-
-                    <div class="movie-hero__rating">
-                        <img src="assets/star.svg" alt="">
-                        <span class="movie-hero__rating-value">8.4</span>
-                        <span class="movie-hero__rating-source">/ 10 IMDb</span>
-                        <span class="movie-hero__audience-score">92% Audience Score</span>
-                    </div>
-
-                    <div class="movie-hero__credits">
-                        <p class="movie-hero__director"><strong>Director:</strong> Elena Vasquez</p>
-                        <p class="movie-hero__cast"><strong>Cast:</strong> Marcus Chen, Anya Petrova, James Okoro</p>
-                    </div>
-
-                    <p class="movie-hero__description">
-                        A deep-space surveyor discovers an unexplained localized signal orbiting a dead star.
-                        As her crew investigates, they realize the cosmic anomaly is warping both space and their
-                        perception of reality.
-                    </p>
-
-                    <div class="movie-hero__actions">
-                        <button class="buy-btn">Buy Tickets</button>
-                        <a class="more-info" href="#">Watch Trailer</a>
-                    </div>
-
-                </div>
+                <div class="movie-hero__info" id="movie-info"></div>
 
             </div>
 
         </article>
-
-
 
         <section class="session-select">
 
             <h2 class="session-select__title">Select Session</h2>
             <p class="session-select__hint">Pick a date and convenient time to reserve seats.</p>
 
-            <div class="session-select__dates">
-
-                <button class="date-tab date-tab--active">Today, Feb 24</button>
-                <button class="date-tab">Tomorrow, Feb 25</button>
-                <button class="date-tab">Fri, Feb 26</button>
-                <button class="date-tab">Sat, Feb 27</button>
-
-            </div>
-
-            <div class="session-select__times">
-
-                <article class="session-card">
-                    <div class="session-card__top">
-                        <span class="session-card__time">18:30</span>
-                        <span class="session-card__format">2D</span>
-                    </div>
-                    <p class="session-card__hall">Hall 2</p>
-                    <p class="session-card__price">from €12.00</p>
-                    <a class="session-card__button" href="session.html">Choose Seats</a>
-                </article>
-
-                <article class="session-card">
-                    <div class="session-card__top">
-                        <span class="session-card__time">20:45</span>
-                        <span class="session-card__format">2D</span>
-                    </div>
-                    <p class="session-card__hall">Hall 4 (VIP)</p>
-                    <p class="session-card__price">from €14.00</p>
-                    <a class="session-card__button session-card__button--active" href="session.html">Choose Seats</a>
-                </article>
-
-                <article class="session-card">
-                    <div class="session-card__top">
-                        <span class="session-card__time">22:50</span>
-                        <span class="session-card__format">2D</span>
-                    </div>
-                    <p class="session-card__hall">Hall 1</p>
-                    <p class="session-card__price">from €12.00</p>
-                    <a class="session-card__button" href="session.html">Choose Seats</a>
-                </article>
-
-            </div>
+            <div class="session-select__dates" id="session-dates"></div>
+            <div class="session-select__times" id="session-times"></div>
 
         </section>
     </main>

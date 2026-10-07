@@ -1,67 +1,149 @@
 [
     {
         "id": 1,
-        "title" : "Silent Horizon",
+        "title": "Silent Horizon",
         "poster": "assets/now showing/poster-1.png",
         "description": "Sci-Fi / Thriller · 2h 18m",
         "ageRating": "16+",
-        "rating": 8.4
+        "rating": 8.4,
+        "backdrop": "assets/movie/backdrop.png",
+        "detailPoster": "assets/movie/movie-detail-poster.png",
+        "director": "Elena Vasquez",
+        "cast": "Marcus Chen, Anya Petrova, James Okoro",
+        "audienceScore": 92,
+        "synopsis": "A deep-space surveyor discovers an unexplained localized signal orbiting a dead star. As her crew investigates, they realize the cosmic anomaly is warping both space and their perception of reality.",
+        "sessions": [
+            { "id": 101, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "18:30", "hall": "Hall 2", "format": "2D", "price": 12 },
+            { "id": 102, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "20:45", "hall": "Hall 4 (VIP)", "format": "2D", "price": 14 },
+            { "id": 103, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "22:50", "hall": "Hall 1", "format": "2D", "price": 12 },
+            { "id": 104, "date": "2026-10-08", "dateLabel": "Tomorrow, Oct 8", "time": "19:00", "hall": "Hall 2", "format": "2D", "price": 12 }
+        ]
     },
     {
         "id": 2,
-        "title" : "Neon District",
+        "title": "Neon District",
         "poster": "assets/now showing/poster-2.png",
         "description": "Action / Cyberpunk · 1h 56m",
         "ageRating": "18+",
-        "rating": 7.9
+        "rating": 7.9,
+        "backdrop": "assets/now showing/poster-2.png",
+        "detailPoster": "assets/now showing/poster-2.png",
+        "director": "Marcus Webb",
+        "cast": "Dana Reyes, Kofi Mensah, Lila Novak",
+        "audienceScore": 85,
+        "synopsis": "In a rain-soaked megacity run by rival corporations, a disgraced hacker takes one last job that could topple the system — or get her killed first.",
+        "sessions": [
+            { "id": 201, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "17:15", "hall": "Hall 1", "format": "2D", "price": 12 },
+            { "id": 202, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "21:30", "hall": "Hall 3", "format": "2D", "price": 12 },
+            { "id": 203, "date": "2026-10-08", "dateLabel": "Tomorrow, Oct 8", "time": "20:00", "hall": "Hall 2", "format": "2D", "price": 12 }
+        ]
     },
     {
         "id": 3,
-        "title" : "The Last Signal",
+        "title": "The Last Signal",
         "poster": "assets/now showing/poster-3.png",
         "description": "Drama / Mystery · 2h 05m",
         "ageRating": "12+",
-        "rating": 8.1
+        "rating": 8.1,
+        "backdrop": "assets/now showing/poster-3.png",
+        "detailPoster": "assets/now showing/poster-3.png",
+        "director": "Harriet Doyle",
+        "cast": "Tomas Lindqvist, Priya Anand, Noah Fischer",
+        "audienceScore": 88,
+        "synopsis": "A radio operator at a remote Arctic station picks up a transmission that shouldn't exist — and starts to unravel a decades-old cover-up.",
+        "sessions": [
+            { "id": 301, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "16:00", "hall": "Hall 2", "format": "2D", "price": 12 },
+            { "id": 302, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "19:30", "hall": "Hall 2", "format": "2D", "price": 12 }
+        ]
     },
     {
         "id": 4,
-        "title" : "After Midnight",
+        "title": "After Midnight",
         "poster": "assets/now showing/poster-4.png",
         "description": "Horror / Suspense · 1h 42m",
         "ageRating": "18+",
-        "rating": 7.5
+        "rating": 7.5,
+        "backdrop": "assets/now showing/poster-4.png",
+        "detailPoster": "assets/now showing/poster-4.png",
+        "director": "Simon Ashworth",
+        "cast": "Rae Jennings, Oscar Mbeki, Clara Voss",
+        "audienceScore": 79,
+        "synopsis": "Four strangers trapped overnight in a shuttered hospital start to realize the building remembers everything that happened inside it.",
+        "sessions": [
+            { "id": 401, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "22:15", "hall": "Hall 3", "format": "2D", "price": 12 },
+            { "id": 402, "date": "2026-10-08", "dateLabel": "Tomorrow, Oct 8", "time": "21:45", "hall": "Hall 3", "format": "2D", "price": 12 }
+        ]
     },
     {
         "id": 5,
-        "title" : "The Last Signal",
+        "title": "Black Tide",
         "poster": "assets/now showing/poster-5.png",
-        "description": "Drama / Mystery · 2h 05m",
-        "ageRating": "12+",
-        "rating": 8.1
+        "description": "Action / Adventure · 2h 10m",
+        "ageRating": "16+",
+        "rating": 7.8,
+        "backdrop": "assets/now showing/poster-5.png",
+        "detailPoster": "assets/now showing/poster-5.png",
+        "director": "Gabriel Voss",
+        "cast": "Amara Diallo, Felix Brandt, Soo-ah Kim",
+        "audienceScore": 82,
+        "synopsis": "When a cargo ship is thrown off course into the heart of a record-breaking storm, its crew must fight both the sea and each other to survive the night.",
+        "sessions": [
+            { "id": 501, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "18:00", "hall": "Hall 1", "format": "2D", "price": 12 },
+            { "id": 502, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "20:30", "hall": "Hall 1", "format": "2D", "price": 12 }
+        ]
     },
     {
         "id": 6,
-        "title" : "After Midnight",
+        "title": "Northbound",
         "poster": "assets/now showing/poster-6.png",
-        "description": "Horror / Suspense · 1h 42m",
-        "ageRating": "18+",
-        "rating": 7.5
-    }, 
+        "description": "Adventure / Biography · 2h 22m",
+        "ageRating": "12+",
+        "rating": 8.2,
+        "backdrop": "assets/now showing/poster-6.png",
+        "detailPoster": "assets/now showing/poster-6.png",
+        "director": "Isabelle Granger",
+        "cast": "Jonas Berg, Leo Castillo, Maya Berglund",
+        "audienceScore": 90,
+        "synopsis": "Based on a true story, a solo climber attempts the first unsupported winter ascent of a peak that has claimed every expedition before his.",
+        "sessions": [
+            { "id": 601, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "17:45", "hall": "Hall 4 (VIP)", "format": "2D", "price": 14 },
+            { "id": 602, "date": "2026-10-08", "dateLabel": "Tomorrow, Oct 8", "time": "18:15", "hall": "Hall 1", "format": "2D", "price": 12 }
+        ]
+    },
     {
         "id": 7,
-        "title" : "After Midnight",
+        "title": "Parallel",
         "poster": "assets/now showing/poster-7.png",
-        "description": "Horror / Suspense · 1h 42m",
-        "ageRating": "18+",
-        "rating": 7.5
+        "description": "Sci-Fi / Mystery · 1h 49m",
+        "ageRating": "16+",
+        "rating": 8.0,
+        "backdrop": "assets/now showing/poster-7.png",
+        "detailPoster": "assets/now showing/poster-7.png",
+        "director": "Noemi Castellanos",
+        "cast": "Jude Harper, Mei Lin, Theo Adeyemi",
+        "audienceScore": 87,
+        "synopsis": "A night-shift architect discovers her newest building exists in two places at once — and the version across town is one step ahead of her.",
+        "sessions": [
+            { "id": 701, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "19:15", "hall": "Hall 2", "format": "2D", "price": 12 },
+            { "id": 702, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "21:40", "hall": "Hall 2", "format": "2D", "price": 12 }
+        ]
     },
     {
         "id": 8,
-        "title" : "After Midnight",
+        "title": "Red Planet",
         "poster": "assets/now showing/poster-8.png",
-        "description": "Horror / Suspense · 1h 42m",
-        "ageRating": "18+",
-        "rating": 7.5
+        "description": "Sci-Fi / Survival · 2h 30m",
+        "ageRating": "12+",
+        "rating": 8.3,
+        "backdrop": "assets/now showing/poster-8.png",
+        "detailPoster": "assets/now showing/poster-8.png",
+        "director": "Petr Novotny",
+        "cast": "Ingrid Solberg, Jamal Ocean, Vera Kuznetsova",
+        "audienceScore": 91,
+        "synopsis": "Stranded alone after a failed landing, an engineer must keep herself alive on a hostile planet long enough for a rescue that may never come.",
+        "sessions": [
+            { "id": 801, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "16:30", "hall": "Hall 3", "format": "2D", "price": 12 },
+            { "id": 802, "date": "2026-10-08", "dateLabel": "Tomorrow, Oct 8", "time": "19:45", "hall": "Hall 3", "format": "2D", "price": 12 }
+        ]
     }
-
 ]
