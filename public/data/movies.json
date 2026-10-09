@@ -1,149 +1,301 @@
 [
     {
         "id": 1,
-        "title": "Silent Horizon",
+        "title": "Тихий Горизонт",
         "poster": "assets/now showing/poster-1.png",
-        "description": "Sci-Fi / Thriller · 2h 18m",
+        "description": "Фантастика / Триллер · 2 ч 18 мин",
         "ageRating": "16+",
         "rating": 8.4,
         "backdrop": "assets/movie/backdrop.png",
         "detailPoster": "assets/movie/movie-detail-poster.png",
-        "director": "Elena Vasquez",
-        "cast": "Marcus Chen, Anya Petrova, James Okoro",
+        "director": "Елена Васкес",
+        "cast": "Маркус Чен, Аня Петрова, Джеймс Окоро",
         "audienceScore": 92,
-        "synopsis": "A deep-space surveyor discovers an unexplained localized signal orbiting a dead star. As her crew investigates, they realize the cosmic anomaly is warping both space and their perception of reality.",
+        "synopsis": "Исследовательница дальнего космоса обнаруживает необъяснимый сигнал, исходящий от мёртвой звезды. Пока её экипаж изучает аномалию, они понимают, что она искажает не только пространство, но и само восприятие реальности.",
         "sessions": [
-            { "id": 101, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "18:30", "hall": "Hall 2", "format": "2D", "price": 12 },
-            { "id": 102, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "20:45", "hall": "Hall 4 (VIP)", "format": "2D", "price": 14 },
-            { "id": 103, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "22:50", "hall": "Hall 1", "format": "2D", "price": 12 },
-            { "id": 104, "date": "2026-10-08", "dateLabel": "Tomorrow, Oct 8", "time": "19:00", "hall": "Hall 2", "format": "2D", "price": 12 }
+            {
+                "id": 101,
+                "date": "2026-10-07",
+                "dateLabel": "Сегодня, 7 окт",
+                "time": "18:30",
+                "hall": "Зал 2",
+                "format": "2D",
+                "price": 1100
+            },
+            {
+                "id": 102,
+                "date": "2026-10-07",
+                "dateLabel": "Сегодня, 7 окт",
+                "time": "20:45",
+                "hall": "Зал 4 (VIP)",
+                "format": "2D",
+                "price": 1300
+            },
+            {
+                "id": 103,
+                "date": "2026-10-07",
+                "dateLabel": "Сегодня, 7 окт",
+                "time": "22:50",
+                "hall": "Зал 1",
+                "format": "2D",
+                "price": 1100
+            },
+            {
+                "id": 104,
+                "date": "2026-10-08",
+                "dateLabel": "Завтра, 8 окт",
+                "time": "19:00",
+                "hall": "Зал 2",
+                "format": "2D",
+                "price": 1100
+            }
         ]
     },
     {
         "id": 2,
-        "title": "Neon District",
+        "title": "Неоновый квартал",
         "poster": "assets/now showing/poster-2.png",
-        "description": "Action / Cyberpunk · 1h 56m",
+        "description": "Боевик / Киберпанк · 1 ч 56 мин",
         "ageRating": "18+",
         "rating": 7.9,
         "backdrop": "assets/now showing/poster-2.png",
         "detailPoster": "assets/now showing/poster-2.png",
-        "director": "Marcus Webb",
-        "cast": "Dana Reyes, Kofi Mensah, Lila Novak",
+        "director": "Маркус Уэбб",
+        "cast": "Дана Рейес, Кофи Менса, Лайла Новак",
         "audienceScore": 85,
-        "synopsis": "In a rain-soaked megacity run by rival corporations, a disgraced hacker takes one last job that could topple the system — or get her killed first.",
+        "synopsis": "В мегаполисе под властью враждующих корпораций хакерша с подмоченной репутацией берётся за последнее дело, способное обрушить всю систему — или стоить ей жизни.",
         "sessions": [
-            { "id": 201, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "17:15", "hall": "Hall 1", "format": "2D", "price": 12 },
-            { "id": 202, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "21:30", "hall": "Hall 3", "format": "2D", "price": 12 },
-            { "id": 203, "date": "2026-10-08", "dateLabel": "Tomorrow, Oct 8", "time": "20:00", "hall": "Hall 2", "format": "2D", "price": 12 }
+            {
+                "id": 201,
+                "date": "2026-10-07",
+                "dateLabel": "Сегодня, 7 окт",
+                "time": "17:15",
+                "hall": "Зал 1",
+                "format": "2D",
+                "price": 1100
+            },
+            {
+                "id": 202,
+                "date": "2026-10-07",
+                "dateLabel": "Сегодня, 7 окт",
+                "time": "21:30",
+                "hall": "Зал 3",
+                "format": "2D",
+                "price": 1100
+            },
+            {
+                "id": 203,
+                "date": "2026-10-08",
+                "dateLabel": "Завтра, 8 окт",
+                "time": "20:00",
+                "hall": "Зал 2",
+                "format": "2D",
+                "price": 1100
+            }
         ]
     },
     {
         "id": 3,
-        "title": "The Last Signal",
+        "title": "Последний сигнал",
         "poster": "assets/now showing/poster-3.png",
-        "description": "Drama / Mystery · 2h 05m",
+        "description": "Драма / Детектив · 2 ч 05 мин",
         "ageRating": "12+",
         "rating": 8.1,
         "backdrop": "assets/now showing/poster-3.png",
         "detailPoster": "assets/now showing/poster-3.png",
-        "director": "Harriet Doyle",
-        "cast": "Tomas Lindqvist, Priya Anand, Noah Fischer",
+        "director": "Харриет Дойл",
+        "cast": "Томас Линдквист, Прия Ананд, Ноа Фишер",
         "audienceScore": 88,
-        "synopsis": "A radio operator at a remote Arctic station picks up a transmission that shouldn't exist — and starts to unravel a decades-old cover-up.",
+        "synopsis": "Радист на затерянной арктической станции принимает сигнал, которого не должно существовать — и начинает распутывать заговор, скрываемый десятилетиями.",
         "sessions": [
-            { "id": 301, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "16:00", "hall": "Hall 2", "format": "2D", "price": 12 },
-            { "id": 302, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "19:30", "hall": "Hall 2", "format": "2D", "price": 12 }
+            {
+                "id": 301,
+                "date": "2026-10-07",
+                "dateLabel": "Сегодня, 7 окт",
+                "time": "16:00",
+                "hall": "Зал 2",
+                "format": "2D",
+                "price": 1100
+            },
+            {
+                "id": 302,
+                "date": "2026-10-07",
+                "dateLabel": "Сегодня, 7 окт",
+                "time": "19:30",
+                "hall": "Зал 2",
+                "format": "2D",
+                "price": 1100
+            }
         ]
     },
     {
         "id": 4,
-        "title": "After Midnight",
+        "title": "После полуночи",
         "poster": "assets/now showing/poster-4.png",
-        "description": "Horror / Suspense · 1h 42m",
+        "description": "Ужасы / Триллер · 1 ч 42 мин",
         "ageRating": "18+",
         "rating": 7.5,
         "backdrop": "assets/now showing/poster-4.png",
         "detailPoster": "assets/now showing/poster-4.png",
-        "director": "Simon Ashworth",
-        "cast": "Rae Jennings, Oscar Mbeki, Clara Voss",
+        "director": "Саймон Эшворт",
+        "cast": "Рэй Дженнингс, Оскар Мбеки, Клара Фосс",
         "audienceScore": 79,
-        "synopsis": "Four strangers trapped overnight in a shuttered hospital start to realize the building remembers everything that happened inside it.",
+        "synopsis": "Четверо незнакомцев, запертые на ночь в заброшенной больнице, постепенно понимают: здание помнит всё, что в нём когда-либо произошло.",
         "sessions": [
-            { "id": 401, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "22:15", "hall": "Hall 3", "format": "2D", "price": 12 },
-            { "id": 402, "date": "2026-10-08", "dateLabel": "Tomorrow, Oct 8", "time": "21:45", "hall": "Hall 3", "format": "2D", "price": 12 }
+            {
+                "id": 401,
+                "date": "2026-10-07",
+                "dateLabel": "Сегодня, 7 окт",
+                "time": "22:15",
+                "hall": "Зал 3",
+                "format": "2D",
+                "price": 1100
+            },
+            {
+                "id": 402,
+                "date": "2026-10-08",
+                "dateLabel": "Завтра, 8 окт",
+                "time": "21:45",
+                "hall": "Зал 3",
+                "format": "2D",
+                "price": 1100
+            }
         ]
     },
     {
         "id": 5,
-        "title": "Black Tide",
+        "title": "Чёрный прилив",
         "poster": "assets/now showing/poster-5.png",
-        "description": "Action / Adventure · 2h 10m",
+        "description": "Боевик / Приключения · 2 ч 10 мин",
         "ageRating": "16+",
         "rating": 7.8,
         "backdrop": "assets/now showing/poster-5.png",
         "detailPoster": "assets/now showing/poster-5.png",
-        "director": "Gabriel Voss",
-        "cast": "Amara Diallo, Felix Brandt, Soo-ah Kim",
+        "director": "Габриэль Фосс",
+        "cast": "Амара Диалло, Феликс Брандт, Су-а Ким",
         "audienceScore": 82,
-        "synopsis": "When a cargo ship is thrown off course into the heart of a record-breaking storm, its crew must fight both the sea and each other to survive the night.",
+        "synopsis": "Грузовое судно сбивается с курса и попадает в эпицентр рекордного шторма — экипажу предстоит бороться не только со стихией, но и друг с другом, чтобы дожить до утра.",
         "sessions": [
-            { "id": 501, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "18:00", "hall": "Hall 1", "format": "2D", "price": 12 },
-            { "id": 502, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "20:30", "hall": "Hall 1", "format": "2D", "price": 12 }
+            {
+                "id": 501,
+                "date": "2026-10-07",
+                "dateLabel": "Сегодня, 7 окт",
+                "time": "18:00",
+                "hall": "Зал 1",
+                "format": "2D",
+                "price": 1100
+            },
+            {
+                "id": 502,
+                "date": "2026-10-07",
+                "dateLabel": "Сегодня, 7 окт",
+                "time": "20:30",
+                "hall": "Зал 1",
+                "format": "2D",
+                "price": 1100
+            }
         ]
     },
     {
         "id": 6,
-        "title": "Northbound",
+        "title": "На север",
         "poster": "assets/now showing/poster-6.png",
-        "description": "Adventure / Biography · 2h 22m",
+        "description": "Приключения / Биография · 2 ч 22 мин",
         "ageRating": "12+",
         "rating": 8.2,
         "backdrop": "assets/now showing/poster-6.png",
         "detailPoster": "assets/now showing/poster-6.png",
-        "director": "Isabelle Granger",
-        "cast": "Jonas Berg, Leo Castillo, Maya Berglund",
+        "director": "Изабель Грейнджер",
+        "cast": "Юнас Берг, Лео Кастильо, Майя Берглунд",
         "audienceScore": 90,
-        "synopsis": "Based on a true story, a solo climber attempts the first unsupported winter ascent of a peak that has claimed every expedition before his.",
+        "synopsis": "Основано на реальных событиях: альпинист-одиночка предпринимает первое в истории зимнее восхождение на вершину, не покорившуюся ни одной прежней экспедиции.",
         "sessions": [
-            { "id": 601, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "17:45", "hall": "Hall 4 (VIP)", "format": "2D", "price": 14 },
-            { "id": 602, "date": "2026-10-08", "dateLabel": "Tomorrow, Oct 8", "time": "18:15", "hall": "Hall 1", "format": "2D", "price": 12 }
+            {
+                "id": 601,
+                "date": "2026-10-07",
+                "dateLabel": "Сегодня, 7 окт",
+                "time": "17:45",
+                "hall": "Зал 4 (VIP)",
+                "format": "2D",
+                "price": 1300
+            },
+            {
+                "id": 602,
+                "date": "2026-10-08",
+                "dateLabel": "Завтра, 8 окт",
+                "time": "18:15",
+                "hall": "Зал 1",
+                "format": "2D",
+                "price": 1100
+            }
         ]
     },
     {
         "id": 7,
-        "title": "Parallel",
+        "title": "Параллель",
         "poster": "assets/now showing/poster-7.png",
-        "description": "Sci-Fi / Mystery · 1h 49m",
+        "description": "Фантастика / Детектив · 1 ч 49 мин",
         "ageRating": "16+",
         "rating": 8.0,
         "backdrop": "assets/now showing/poster-7.png",
         "detailPoster": "assets/now showing/poster-7.png",
-        "director": "Noemi Castellanos",
-        "cast": "Jude Harper, Mei Lin, Theo Adeyemi",
+        "director": "Ноэми Кастельянос",
+        "cast": "Джуд Харпер, Мэй Линь, Тео Адейеми",
         "audienceScore": 87,
-        "synopsis": "A night-shift architect discovers her newest building exists in two places at once — and the version across town is one step ahead of her.",
+        "synopsis": "Архитектор, работающая по ночам, обнаруживает, что её новое здание существует сразу в двух местах — а версия на другом конце города всегда на шаг впереди.",
         "sessions": [
-            { "id": 701, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "19:15", "hall": "Hall 2", "format": "2D", "price": 12 },
-            { "id": 702, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "21:40", "hall": "Hall 2", "format": "2D", "price": 12 }
+            {
+                "id": 701,
+                "date": "2026-10-07",
+                "dateLabel": "Сегодня, 7 окт",
+                "time": "19:15",
+                "hall": "Зал 2",
+                "format": "2D",
+                "price": 1100
+            },
+            {
+                "id": 702,
+                "date": "2026-10-07",
+                "dateLabel": "Сегодня, 7 окт",
+                "time": "21:40",
+                "hall": "Зал 2",
+                "format": "2D",
+                "price": 1100
+            }
         ]
     },
     {
         "id": 8,
-        "title": "Red Planet",
+        "title": "Красная планета",
         "poster": "assets/now showing/poster-8.png",
-        "description": "Sci-Fi / Survival · 2h 30m",
+        "description": "Фантастика / Выживание · 2 ч 30 мин",
         "ageRating": "12+",
         "rating": 8.3,
         "backdrop": "assets/now showing/poster-8.png",
         "detailPoster": "assets/now showing/poster-8.png",
-        "director": "Petr Novotny",
-        "cast": "Ingrid Solberg, Jamal Ocean, Vera Kuznetsova",
+        "director": "Пётр Новотны",
+        "cast": "Ингрид Сольберг, Джамал Оушен, Вера Кузнецова",
         "audienceScore": 91,
-        "synopsis": "Stranded alone after a failed landing, an engineer must keep herself alive on a hostile planet long enough for a rescue that may never come.",
+        "synopsis": "Оставшись одна после неудачной посадки, инженер должна продержаться на враждебной планете достаточно долго, чтобы дождаться спасения, которое может никогда не прийти.",
         "sessions": [
-            { "id": 801, "date": "2026-10-07", "dateLabel": "Today, Oct 7", "time": "16:30", "hall": "Hall 3", "format": "2D", "price": 12 },
-            { "id": 802, "date": "2026-10-08", "dateLabel": "Tomorrow, Oct 8", "time": "19:45", "hall": "Hall 3", "format": "2D", "price": 12 }
+            {
+                "id": 801,
+                "date": "2026-10-07",
+                "dateLabel": "Сегодня, 7 окт",
+                "time": "16:30",
+                "hall": "Зал 3",
+                "format": "2D",
+                "price": 1100
+            },
+            {
+                "id": 802,
+                "date": "2026-10-08",
+                "dateLabel": "Завтра, 8 окт",
+                "time": "19:45",
+                "hall": "Зал 3",
+                "format": "2D",
+                "price": 1100
+            }
         ]
     }
 ]

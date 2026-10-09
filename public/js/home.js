@@ -25,7 +25,7 @@ function renderMovieCard(movie) {
           <p class="movie-card__info">${movie.description}</p>
         </div>
       </a>
-      <a class="movie-card__button" href="movie-details.html?id=${movie.id}">Buy Tickets</a>
+      <a class="movie-card__button" href="movie-details.html?id=${movie.id}">Купить билеты</a>
     </article>
   `;
 }
