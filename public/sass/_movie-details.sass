@@ -28,25 +28,23 @@
 
     &__poster
         width: 280px
-        height: 100%
+        flex-shrink: 0
         border-radius: 8px
 
     &__info
-        width: 984px
-        height: 347px
         display: flex
         flex-direction: column
+
 
     // =====================================================================================
 
     &__badges
         display: flex
-        justify-content: center
+        flex-wrap: wrap
         align-items: center
-        width: 211px
-        height: 24px
         gap: 12px
         margin-bottom: 24px
+
 
     &__age-rating
         display: flex
@@ -58,6 +56,7 @@
         border-radius: 4px
         width: 36px
         height: 24px
+        flex-shrink: 0
         border: 1px solid #D43A3A
 
     &__meta
@@ -73,21 +72,20 @@
     // =====================================================================================
 
     &__rating
-        width: 268px
-        height: 21px
         display: flex
-        justify-content: center
+        flex-wrap: wrap
         align-items: center
+        gap: 8px
         margin-bottom: 24px
+
 
     &__rating-value
         font-size: 16px
-        margin-right: 4px
 
     &__rating-source
         font-size: 14px
         color: $description-text
-        margin-right: 25px
+        margin-right: 17px
 
     &__audience-score
         font-size: 14px
@@ -108,20 +106,20 @@
     // =====================================================================================
 
     &__description
-        width: 984px
-        height: 48px
+        max-width: 700px
         color: $description-text
         font-size: 15px
         margin-bottom: 24px
 
+
     // =====================================================================================
 
     &__actions
-        width: 292px
-        height: 46px
         display: flex
+        flex-wrap: wrap
         align-items: center
-        justify-content: space-between
+        gap: 16px
+
 
 // =====================================================================================
 // section session-select in movie-details.html
