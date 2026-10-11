@@ -1,0 +1,113 @@
+@use 'variables' as *
+
+.session-bar
+    width: 1440px
+    height: 64px
+    background-color: #141416
+    border: 1px solid $color-stroke
+    margin: 0 auto
+    border-radius: 16px
+
+    &__container
+        display: flex
+        align-items: center
+        justify-content: space-between
+        height: 64px
+        padding: 0px 64px
+
+    &__text
+        display: flex
+        align-items: center
+        width: 316px
+        height: 23px
+        gap: 33px
+
+    &__text-text
+        width: 167px
+        height: 18px
+        font-size: 14px
+        color: $description-text
+
+    &__text-title
+        width: 116px
+        height: 23px
+        font-size: 18px
+
+    &__back-title
+        font-size: 14px
+        color: $description-text
+
+
+
+// =================================================================================
+// section seat-select in session.html
+
+.seat-select
+    width: 1440px
+    height: 650px
+    padding: 48px 64px
+    margin: 0 auto
+
+    &__hall
+        width: 884px
+        height: 554px
+        background-color: #141416
+        border: 1px solid $color-stroke
+        border-radius: 16px
+        display: flex
+        flex-direction: column
+        align-items: center
+        padding: 40px
+
+    &__screen
+        width: 500px
+        height: 31px
+        font-size: 12px
+        position: relative
+        display: flex
+        justify-content: center
+        margin-bottom: 30px
+        &::after
+            content: ""
+            position: absolute
+            width: 95%
+            border: 2px solid #3E3E42
+            transform: translateX(-5%)
+            transform: translateY(30px)
+            border-radius: 8px
+
+
+.seat-row
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 472px
+    height: 24px
+    margin-bottom: 8px
+    
+
+    &__label
+        font-size: 13px
+        color: #8E8E93
+        font-weight: 800
+
+    &__seats
+        gap: 24px
+        display: flex
+
+    &__group
+        gap: 8px
+
+.seat
+    width: 24px
+    height: 24px
+    background-color: #2C2C2E
+    border: 1px solid #3E3E42
+    border-radius: 4px
+    color: #2C2C2E
+    transition: all 0.5s ease
+
+
+.seat-active
+    background-color: #8f4b0b
+    color: #fdfdfd
